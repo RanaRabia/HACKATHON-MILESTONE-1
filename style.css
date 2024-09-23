@@ -1,0 +1,71 @@
+body{
+    font-size: Aerial;
+    background-color:rgb(248, 246, 244);
+    margin: 0;
+    padding: 150px;
+}
+.resume-container{
+    display: flex;
+    background-color:whitesmoke;
+    width: 110%;
+    margin:auto;
+    border-radius: 30px;
+    box-shadow: 0 0 20px palevioletred
+}
+.left-section{
+    background-color: rgb(167, 121, 121);
+    color:whitesmoke;
+    padding: 30px;
+    text-align: center;
+    border-right: 6px solid rgb(117, 9, 43);
+
+}
+.profile-picture{
+    width: 190px;
+    height: 190px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 19px mediumvioletred;
+    margin-bottom: 30px;
+
+    
+}
+h1{
+    font-size: 30px;
+    margin: 10px o;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 21;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 1opx;
+    box-shadow: 0 0 18px rgb(135, 40, 5);
+    margin-top: 6%;
+    margin-bottom: 6%;
+} 
+ul{
+    list-style-type: fill round;
+    padding: 11px;
+    margin: 11px 0;
+}
+ul li{
+    margin: 6px 0;
+}
+.right-section{
+    padding: 30px ;
+    width: 90% ;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 13px;
+    box-shadow: 0 0 15px rosybrown;
+    cursor: pointer;
+    margin-top: 14px;
+    font-size: 16px;
+}
+button-hover{
+    background-color: rgba(146, 13, 77, 0.884);
+}
